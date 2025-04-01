@@ -12,9 +12,9 @@ mkdir -p /sec
 
 echo "Criando grupos de usuários..."
 
-groupadd GRP_ADM || echo "Grupo GRP_ADM já existe."
-groupadd GRP_VEN || echo "Grupo GRP_VEN já existe."
-groupadd GRP_SEC || echo "Grupo GRP_SEC já existe."
+groupadd GRP_ADM || echo "Grupo GRP_ADM"
+groupadd GRP_VEN || echo "Grupo GRP_VEN"
+groupadd GRP_SEC || echo "Grupo GRP_SEC"
 
 echo "Criando usuários e adicionando aos grupos..."
 
